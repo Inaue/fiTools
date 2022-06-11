@@ -51,7 +51,6 @@ int main(int argc, char** argv)
 		amount = ((amount + (monthlyApp * MONTHS_PER_YEAR)) * (100 + interestRate)) / 100;
 
 	printf("The amount is $ %lu\n", amount);
-	printf("T = %ld\n", t);
 
 	return EXIT_SUCCESS;
 }
